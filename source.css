@@ -1,0 +1,133 @@
+/**
+    * @name Codesandbox Dark
+    * @version 1.0.0
+    * @description A theme based of the Codesandbox theme.
+    * @author Luca Stante
+    * @source https://github.com/lucastante/Codesandbox-Dark
+**/
+
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;200;300;400;500;600;700&display=swap");
+
+:root {
+  /* --------- BASE THEME --------- */
+  --logo-primary: #161616;
+  --font-display: JetBrains Mono, Helvetica Neue, Helvetica, Arial, sans-serif; /* main font for app (font must be installed) [default: gg sans, Helvetica Neue, Helvetica, Arial, sans-serif] */
+  --font-primary: JetBrains Mono;
+  --blurple-replace: #edffa5;
+  --blurple-border: 1px solid #edffa5;
+  --channels-default: rgb(139, 148, 158);
+  --guild-header-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+  --shadow-normal: 0 1px 0 rgba(0, 0, 0, 0.15), 0 1.5px 0 rgba(0, 0, 0, 0.1),
+    0 2px 0 rgba(0, 0, 0, 0.1);
+  --voice-color: var(--brand-experiment);
+
+  /* BACKGROUND */
+  --background-primary: #0e0e0e;
+  --background-secondary: #040404;
+  --background-secondary-alt: #16191b;
+  --background-tertiary: #040404;
+  --background-accent: #161616;
+  --background-floating: #0d1012;
+  --background-accent: #5865f2;
+  --background-secondary-alt: #040404;
+  --userarea-background: var(--background-tertiary);
+
+  --background-modifier-hover: rgba(33, 38, 45, 0.26);
+  --background-modifier-active: rgba(33, 38, 45, 0.1);
+  --background-modifier-selected: rgba(33, 38, 45, 0.2);
+  --background-modifier-accent: rgb(33, 38, 45);
+  --background-mentioned: #161616;
+  --background-mentioned-hover: #161616;
+  --background-message-hover: #161616;
+  --activity-card-background: #000;
+  --channeltextarea-background: #161616;
+
+  --info-help-background: hsla(
+    197,
+    calc(var(--saturation-factor, 1) * 100%),
+    47.8%,
+    0.1
+  );
+  --info-help-foreground: hsl(
+    197,
+    calc(var(--saturation-factor, 1) * 100%),
+    47.8%
+  );
+  /* BACKGROUND END */
+
+  /* ELEVATION */
+  --elevation-high: 0 8px 16px rgba(0, 0, 0, 0.24);
+  --elevation-low: 0 1px 0 rgba(40, 40, 50, 0.2),
+    0 1.5px 0 rgba(60, 60, 70, 0.05), 0 2px 0 rgba(40, 40, 50, 0.05);
+  --elevation-stroke: 0 0 0 1px rgba(0, 0, 0, 0.15),
+    0 0 0 1px rgba(0, 0, 0, 0.1);
+  --elevation-low: 0 1px 0 rgba(0, 0, 0, 0.15), 0 1.5px 0 rgba(0, 0, 0, 0.1),
+    0 2px 0 rgba(0, 0, 0, 0.1);
+  --elevation-medium: 0 4px 4px rgba(0, 0, 0, 0.1);
+  --elevation-high: 0 8px 16px rgba(0, 0, 0, 0.2);
+  /* ELEVATION END */
+
+  /* INTERACTIVE */
+  --interactive-normal: #e5e5e5;
+  --interactive-hover: #edffa5;
+  --interactive-active: #dcff50;
+  --interactive-muted: #5865f2;
+  --interactive-muted-hover: #6d737a;
+  /* INTERACTIVE END */
+
+  /* TEXT */
+  --text-link: #5865f2;
+  --text-muted: #6d737a;
+  --text-normal: rgb(205, 205, 206);
+  --text-positive: hsl(139, calc(var(--saturation-factor, 1) * 66.8%), 58.6%);
+  --text-warning: hsl(38, calc(var(--saturation-factor, 1) * 95.7%), 54.1%);
+  --text-danger: hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%);
+  --info-positive-text: rgb(211, 210, 210);
+  --info-warning-text: #fff;
+  --info-danger-text: #fff;
+  --info-help-text: #e5e5e5;
+  /* TEXT END */
+  --border: 1px solid rgb(48, 54, 61);
+  --border-color: rgb(48, 54, 61);
+  --border-radius: 0;
+  --divide-color: var(--brand-experiment);
+  --brand-experiment: #5865f2;
+
+  /* default dark */
+
+  /* SCROLLBAR */
+  --status-warning-text: #edffa5;
+  --scrollbar-thin-thumb: #121212;
+  --scrollbar-thin-track: transparent;
+  --scrollbar-auto-thumb: rgb(7, 7, 7);
+  --scrollbar-auto-track: #121212;
+  --scrollbar-auto-scrollbar-color-thumb: #121212;
+  --scrollbar-auto-scrollbar-color-track: #121212;
+  /* SCROLLBAR END */
+
+  --control-brand-foreground: hsl(
+    227,
+    calc(var(--saturation-factor, 1) * 57.9%),
+    77.6%
+  );
+  --control-brand-foreground-new: hsl(
+    235,
+    calc(var(--saturation-factor, 1) * 86.1%),
+    77.5%
+  );
+
+  --textbox-markdown-syntax: rgb(82, 89, 95);
+
+  /* BORDER */
+  --border-normal: #4e35bb;
+  --border-muted: #272b2f;
+  /* BORDER END */
+
+  /* STATUS */
+  --status-online: #43b581;
+  --status-idle: #faa61a;
+  --status-dnd: #f04747;
+  --status-streaming: #5865f2;
+  --status-invisible: #747f8d;
+  /* STATUS END */
+}
