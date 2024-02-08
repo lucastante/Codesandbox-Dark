@@ -1,7 +1,7 @@
 /**
     * @name Codesandbox Dark
     * @version 1.0.0
-    * @description A theme based of the Codesandbox theme.
+    * @description A theme based of the codesandbox theme.
     * @author Luca Stante
     * @source https://github.com/lucastante/Codesandbox-Dark
 **/
@@ -9,10 +9,14 @@
 @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;200;300;400;500;600;700&display=swap");
 
 :root {
-  /* --------- BASE THEME --------- */
-  --logo-primary: #161616;
   --font-display: JetBrains Mono, Helvetica Neue, Helvetica, Arial, sans-serif; /* main font for app (font must be installed) [default: gg sans, Helvetica Neue, Helvetica, Arial, sans-serif] */
   --font-primary: JetBrains Mono;
+}
+
+.theme-dark {
+  /* --------- BASE THEME --------- */
+  --logo-primary: #161616;
+
   --blurple-replace: #edffa5;
   --blurple-border: 1px solid #edffa5;
   --channels-default: rgb(139, 148, 158);
